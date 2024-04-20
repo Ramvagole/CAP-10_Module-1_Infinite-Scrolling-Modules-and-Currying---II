@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+    <h1>search</h1>
+    <div>
+        <input type="text" placeholder="" value="" id="nameSearch">
+        <button id="search">search</button>
+    </div>
+    <div id="yelo">
+
+    </div>
+    <script src="search.js" type="module"></script>
+    <script type="module">
+        import navbar from "./navbar.js";
+        let a=document.getElementById("navbar");
+        a.innerHTML=navbar()
+    </script>
+</body>
+</html>

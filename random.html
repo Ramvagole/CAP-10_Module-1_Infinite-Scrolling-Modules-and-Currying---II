@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+    <h1>random</h1>
+    <div>
+        <input type="text" placeholder="Enter name" value="" id="ran">
+        <button id="find">Find</button>
+    </div>
+    <div id="rand">
+
+    </div>
+    <script src="random.js" type="module"></script>
+    <script type="module">
+        import navbar from "./navbar.js"
+        let a=document.getElementById("navbar")
+        a.innerHTML=navbar()
+    </script>
+</body>
+</html>
